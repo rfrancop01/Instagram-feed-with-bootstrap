@@ -14,10 +14,20 @@
 <body>
     <nav class="navbar bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand"><i class="fab fa-instagram"></i></i></i></a>
+          <a class="navbar-brand ms-5"><i class="fab fa-instagram"></i>Instagram</i></i></a>
           <form class="d-flex" role="search">
             <button class="btn btn-success" type="submit">Search</button>
-
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle ms-5 me-5" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                    <i class="fas fa-cog"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                  <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                  <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                </ul>
+              </div>
           </form>
         </div>
       </nav>
