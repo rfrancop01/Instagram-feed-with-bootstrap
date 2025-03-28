@@ -1,33 +1,66 @@
-# HTML Hello
+# Instagram Feed con Bootstrap
 
-El boilerplate más básico para cualquier estudiante de 4Geeks Academy, empieza tu primer sitio web desde cero.
+Este proyecto es una réplica de la interfaz de un feed de Instagram, desarrollada utilizando HTML, CSS y Bootstrap. El objetivo es practicar y demostrar habilidades en el diseño responsivo y el uso de componentes de Bootstrap para crear interfaces modernas y atractivas.
 
-> Tienes un video tutorial sobre [cómo usar esta plantilla para crear tu primer sitio web aquí](https://youtu.be/dfbDCMu_p-0).
+## Características
 
-## ¿Qué hacer a continuación?
+- **Diseño Responsivo**: Adaptable a diferentes tamaños de pantalla gracias a las clases de Bootstrap.
+- **Componentes de Bootstrap**: Uso de tarjetas, rejillas y otros elementos para estructurar el feed de manera eficiente.
+- **Estilización Personalizada**: Integración de estilos CSS personalizados para asemejarse al diseño original de Instagram.
 
-Crea un archivo `index.html` con [la estructura básica de HTML](https://4geeks.com/es/lesson/what-is-html-learn-html-es#estructura-de-pgina) y ve el resultado en vivo corriendo un servidor web utilizando el siguiente comando:
+## Instalación
 
-```bash
-$ pip3 install flask && python3 server.py
-```
+1. **Clona este repositorio** en tu máquina local:
 
-- Puedes crear tantos archivos HTML cómo desees.
-- También puedes crear archivos CSS e importarlos en tu página web utilizando una etiqueta `<link>` ubicándola entre las etiquetas `<head></head>`, de la siguiente manera:
+   ```bash
+   git clone https://github.com/rfrancop01/Instagram-feed-with-bootstrap.git
+   ```
 
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+2. **Navega al directorio del proyecto**:
+
+   ```bash
+   cd Instagram-feed-with-bootstrap
+   ```
+
+3. **Abre el archivo `index.html`** en tu navegador web preferido para visualizar el proyecto.
+
+## Uso
+
+- Explora el feed simulado desplazándote por la página.
+- Observa cómo se adaptan los elementos al cambiar el tamaño de la ventana del navegador, demostrando la responsividad del diseño.
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto:
+
+1. **Haz un fork** del repositorio.
+2. **Crea una nueva rama** para tu característica o mejora:
+
+   ```bash
+   git checkout -b nombre-de-tu-rama
+   ```
+
+3. **Realiza tus cambios** y confirma los commits:
+
+   ```bash
+   git commit -m "Descripción de los cambios"
+   ```
+
+4. **Empuja tus cambios** a tu fork:
+
+   ```bash
+   git push origin nombre-de-tu-rama
+   ```
+
+5. **Abre un Pull Request** en este repositorio describiendo tus modificaciones.
 
 
-## Agradecimientos
+## Créditos
 
-Esta y otras plantillas son utilizadas para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp). 
+Desarrollado por Ricardo Franco Pérez.
 
-Realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. 
+Inspirado en el diseño de [Instagram](https://www.instagram.com/).
 
-Conoce más sobre nuestros [Cursos de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero/?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/desarrollador-full-stack/desarrollador-full-stack), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).
+---
+
+*Este proyecto fue desarrollado como parte del curso de Full Stack Developer en [4Geeks Academy](https://4geeksacademy.com).*
